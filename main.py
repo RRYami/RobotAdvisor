@@ -45,7 +45,7 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error: {e}")
 
-    # # Push to database (SQLite)
+    # # Push to database (SQLite) !
     # con = sqlite3.connect(r".\test.db")
     # cur = con.cursor()
     # # Create table for NVDA if not exists
